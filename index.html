@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+    <div class="mds-border">
+        <div class="mds-menubar">
+            <div class="mds-menubar-title">
+                <h2 class="mds-menubar-title-text">Quiz Master</h2>
+                <h4 class="mds-menubar-title-info"> Knowledge is power! </h4>
+            </div>
+            <div class="mds-menubar-list">
+                <div class="mds-menubar-list-item"tabindex="0">Game screen</div>
+                <div class="mds-menubar-list-item"tabindex="0">Stats</div>
+                <div class="mds-menubar-list-item"tabindex="0">About this app</div>
+            </div>
+        </div>
+        <div class="mds-container">
+            <div class="mds-overlay"></div>
+            <header class="mds-header">
+                <i class="mds-header-icon material-icons" tabindex="0" data-click="active">menu</i>
+                <hi class="mds-header-text" tabindex="0">Quiz Master</hi>
+            </header>
+            <div class="mds-scroll">
+                <main class="mds-body" data-type="inactive"></main>
+                <div class="mds-about mds-display-none">
+                    <p class="mds-about-text">
+                    Lorem Ipsum är en utfyllnadstext från tryck- och förlagsindustrin. 
+                    Lorem ipsum har varit standard ända sedan 1500-talet, när en okänd boksättare 
+                    tog att antal bokstäver och blandade dem för att göra ett provexemplar av en
+                     bok. Lorem ipsum har inte bara överlevt fem århundraden, utan även övergången 
+                     till elektronisk typografi utan större förändringar. Det blev allmänt känt på 
+                     1960-talet i samband med lanseringen av Letraset-ark med avsnitt av Lorem Ipsum, 
+                     och senare med mjukvaror som Aldus PageMaker.");  
+                    </p>
+                </div>
+                <div class="mds-stats mds-display-none">
+                    <div class="mds-stats-box">
+                        <h2 class="mds-stats-title">GAMES PLAYED</h2>
+                        <h3 class="mds-stats-text played"></h3>
+                    </div>
+                    <div class="mds-stats-box">
+                        <h2 class="mds-stats-title">CORRECT ANSWERS</h2>
+                        <h3 class="mds-stats-text correct"></h3>
+                    </div>
+                    <div class="mds-stats-box">
+                        <h2 class="mds-stats-title">INCORRECT ANSWERS</h2>
+                        <h3 class="mds-stats-text incorrect"></h3>
+                    </div>
+                    <div class="mds-stats-box">
+                        <h2 class="mds-stats-title">CORRECT PERCENTAGE</h2>
+                        <h3 class="mds-stats-text percentage"></h3>
+                    </div>
+                    <div class="mds-stats-box mds-box-stats-button">
+                        <button class="mds-stats-button ">Clear Stats</button>
+                    </div>
+                </div>
+            </div>
+            <button class="mds-body-button"tabindex="0">Start Quiz</button>
+            <div class="mds-popup mds-display-none" data-check="inactive">
+                <h6 class="mds-popup-title--text"></h6>
+                <p class="mds-popup-supporting--text"></p>
+                <div class="mds-choise">
+                    <span class="mds-choise-button check">CHECK</span>
+                    <span class="mds-choise-button re-start">RE-START</span>
+                    <span class="mds-choise-button close">CLOSE</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>
